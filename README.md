@@ -1,25 +1,22 @@
-# Vehicle Rent Service 🚗🏍️🚌
+# 🚗 Vehicle Rent Service 🏍️🚌
 
-This project is a **Java-based Vehicle Rental Management System** that simulates renting and returning vehicles such as Cars, Bikes, and Buses. It demonstrates the use of **Object-Oriented Programming (OOP) concepts** in Java, including inheritance, polymorphism, abstraction, encapsulation, and association.
+A **Java-based Vehicle Rental Management System** that simulates renting and returning vehicles such as **Cars, Bikes, and Buses**. This project demonstrates the use of **Object-Oriented Programming (OOP)** principles in Java including **inheritance, polymorphism, abstraction, encapsulation, and association**.
 
 ---
 
 ## ✨ Features
 
 * Add vehicles (Car, Bike, Bus) to the inventory
-* Register customers
-* Show vehicle and customer information
-* Rent vehicles by customers
-* Return rented vehicles
-* Show updated inventory and customer details
-* Track which customer rented which vehicle
-* Calculate rental cost based on hours
+* Register and manage customers
+* Show detailed information of vehicles & customers
+* Rent vehicles to customers
+* Return rented vehicles and update availability
+* Track rental history (which customer rented which vehicle)
+* Calculate rental cost based on duration
 
 ---
 
-## 🛠 Topics Covered in This Project
-
-This project helps practice and apply the following concepts:
+## 🛠 Topics Covered
 
 ### 🔹 Core Java Concepts
 
@@ -33,30 +30,33 @@ This project helps practice and apply the following concepts:
 
 * **Encapsulation** → Private fields with getters & setters
 * **Inheritance** → Car, Bike, Bus extend Vehicle class
-* **Polymorphism** → Method overriding (`showInfo()` in subclasses)
+* **Polymorphism** → Overriding `showInfo()` in subclasses
 * **Abstraction** → Abstract `Vehicle` class with abstract methods
-* **Composition/Association** → RentalService uses Inventory and Customers
+* **Composition/Association** → RentalService uses Inventory & Customer classes
 
 ### 🔹 Advanced Concepts
 
 * Method Overloading & Overriding
-* Super keyword usage
-* Handling multiple objects
-* Relationships: One-to-Many (Customer → Multiple Vehicles)
+* `super` keyword usage
+* Managing multiple objects
+* One-to-Many Relationship (Customer → Multiple Rentals)
 
-### 🔹 Project Implementation Topics
+### 🔹 Project Implementation
 
-* **Start.java** → main driver class
-* **Vehicle.java** → abstract base class
-* **Car.java, Bike.java, Bus.java** → specialized vehicle classes
-* **Customer.java** → stores customer details
-* **VehicleInventory.java** → manages available vehicles
-* **CustomerList.java** → manages registered customers
-* **RentalService.java** → handles renting & returning logic
+* **Start.java** → Main driver class
+* **Vehicle.java** → Abstract base class
+* **Car.java, Bike.java, Bus.java** → Specialized vehicle classes
+* **Customer.java** → Stores customer details
+* **VehicleInventory.java** → Manages available vehicles
+* **CustomerList.java** → Manages registered customers
+* **RentalService.java** → Handles renting & returning logic
+* **Rent.java** → Tracks rental details (duration, cost, status)
 
 ---
 
+## 📂 Project Structure
 
+```
 Vehicle_Rent_Service/
 │── Entity/
 │   ├── Vehicle.java
@@ -72,12 +72,13 @@ Vehicle_Rent_Service/
 │   ├── CustomerList.java
 │
 │── Start.java   # Main class
+```
 
-
+---
 
 ## 🚀 How to Run
 
-1. Clone this repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/Vehicle-Rent-Service.git
@@ -105,15 +106,20 @@ Vehicle_Rent_Service/
 
 ## 📌 Future Improvements
 
-* Add database connectivity (MySQL/SQLite)
-* Implement GUI (JavaFX or Swing)
-* Add authentication system for customers
-* Handle edge cases with exception handling
+* ✅ Add database connectivity (MySQL/SQLite)
+* ✅ Implement GUI (JavaFX or Swing)
+* ✅ Add authentication system for customers
+* ✅ Improve exception handling & edge case coverage
+* ✅ Add advanced reporting (total revenue, most rented vehicle, etc.)
 
 ---
 
 ## 👨‍💻 Author
 
 **Shakib Islam**
-Student of CSE, AIUB
+🎓 Student of CSE, AIUB
 📧 Contact: [imshakibul@gmail.com](mailto:imshakibul@gmail.com)
+
+---
+
+🔗 *This project is created for learning and practicing **Object-Oriented Programming (OOP)** in Java.*
