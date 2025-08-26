@@ -59,19 +59,19 @@ This project helps practice and apply the following concepts:
 
 Vehicle_Rent_Service/
 │── Entity/
-│ ├── Vehicle.java
-│ ├── Car.java
-│ ├── Bike.java
-│ ├── Bus.java
+│   ├── Vehicle.java
+│   ├── Car.java
+│   ├── Bike.java
+│   ├── Bus.java
 │
 │── Manager/
-│ ├── Customer.java
-│ ├── Rent.java
-│ ├── RentalService.java
-│ ├── VehicleInventory.java
-│ ├── CustomerList.java
+│   ├── Customer.java
+│   ├── Rent.java
+│   ├── RentalService.java
+│   ├── VehicleInventory.java
+│   ├── CustomerList.java
 │
-│── Start.java # Main class
+│── Start.java   # Main class
 
 
 
