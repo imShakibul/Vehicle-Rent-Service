@@ -81,7 +81,7 @@ Vehicle_Rent_Service/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Vehicle-Rent-Service.git
+   git clone https://github.com/imShakibul/Vehicle-Rent-Service.git
    ```
 
 2. Navigate into the folder:
